@@ -1,0 +1,11 @@
+input{
+    margin: 10px;
+}
+form{
+    border:5px solid black;
+    border-radius: 10px;
+}
+button{
+    margin: 10px;
+    background-color: red;
+}

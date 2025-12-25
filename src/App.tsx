@@ -1,13 +1,14 @@
 import './App.css'
+import React from 'react';
+import BookCreate from './components/SignForm';
+import Books from './components/BookList';
 
-import { BookList } from './components/BookList'
-
-function App() {
+const App: React.FC = () => {
     return(
-<div>
-
-    <BookList/>
-</div>
+        <div>
+            <BookCreate/>
+            <Books/>
+        </div>
 );}
 
 export default App;

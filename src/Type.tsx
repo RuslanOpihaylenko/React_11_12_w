@@ -1,8 +1,9 @@
  export type BookType = {
-    Name: string;
-    Author: string;
-    Img: string;
+    title: string;
+    author: string;
+    image: string;
     ISBN: string;
-    Discription: string;
-    Price: number;
+    description: string;
+    price: string;
+    isExist: boolean;
   };
